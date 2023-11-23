@@ -18,6 +18,12 @@ export default defineConfig({
 
   plugins: [react(), nxViteTsPaths()],
 
+  resolve: {
+    alias: {
+      '@': '/src', // This means you can use '@' as an alias for the '/src' directory
+    },
+  },
+
   // Uncomment this if you are using workers.
   // worker: {
   //  plugins: [ nxViteTsPaths() ],

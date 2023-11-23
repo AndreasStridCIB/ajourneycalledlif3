@@ -10,7 +10,8 @@ const StyledApp = styled.div`
 export function App() {
   return (
     <StyledApp>
-      <HomePage />
+      <div>Under Construction 🛠️. Will be released soon</div>
+      {/* <HomePage /> */}
       {/* <NxWelcome title="Welcome to ajcl3!" /> */}
     </StyledApp>
   );
