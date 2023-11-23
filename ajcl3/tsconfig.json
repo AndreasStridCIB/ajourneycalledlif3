@@ -13,7 +13,9 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {},
+    "paths": {
+      "src/*": ["src/*"] // Corresponds to the Vite config
+    },
     "jsx": "react-jsx",
     "allowJs": false,
     "esModuleInterop": false,
@@ -21,6 +23,7 @@
     "strict": true,
     "types": ["vite/client", "vitest"]
   },
+
   "files": [],
   "include": [],
   "references": [
